@@ -2,6 +2,13 @@
 
 ![image of a laptop](https://user-images.githubusercontent.com/55456375/70282113-26a4b980-177a-11ea-8749-cf847a6ebb51.png)
 
+## As a professional I want to have a Portfolio that is responsive and polished
+
+This Portfolio page was created utilizing Bootstrap. Building a page via Bootstrap is an efficient use of time and resources. When you don't have the time to start from HTML and CSS scratch, Bootstrap is an easy way to create something functional and polished. 
+
+Throughout this Portfolio you will find the framework for showcasing future work, learning about me as a person and developer, in addition to space for feedback or connecting. 
+
+
 
 ## Assignment Overview
 When web developers find themselves repeating a task, they often look for programmatic solutions. A prime example is setting up boilerplate HTML and CSS that can be reused. In the previous unit, you built and deployed a simple portfolio site. Now imagine that you're building portfolios for several clients. An efficient approach to this scenario would be to create a master stylesheet and then customize copies of it for each portfolio. In doing so, you'd be implementing a simple CSS framework.
@@ -14,7 +21,6 @@ The following topics will be covered in this unit:
 * CSS resets
 * Typography
 * Pseudo-classes
-*!important
 * Media queries
 * Viewport tag
 * CDN
@@ -42,7 +48,3 @@ Implement a grid layout in HTML to leverage the benefits of a CSS framework
 Integrate Bootstrap components in HTML files to quickly build user interfaces
 Add custom styling to a CSS framework
 Deploy to GitHub pages
-
-
-Homework: Responsive Portfolio
-Use the Bootstrap CSS Framework to recreate your portfolio.
