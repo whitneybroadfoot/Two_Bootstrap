@@ -9,7 +9,7 @@
     <body>
 <!--this is the bootstrap for the navbar and linking between pages-->
         <header>
-            <div class="Name">
+            <div class="name">
                 <h2>Whitney Broadfoot</h2>
             </div>
             <ul class="nav justify-content-end">
@@ -24,45 +24,58 @@
                     </li>
                   </ul>
         </header>
-<!--this bootstrap code is for the portfolio examples, was pulled from "Media Object",
-  I changed class= to code under the content, images Bootstrap to try and float left/right isn't working-->
-        <ul class="list-unstyled">
-          <li class="media">
-            <img src="assets\one_portfolio.png" class="rounded float-left" alt="image of laptop and someone working">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Portfolio Example</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </li>
-          <li class="media">
-            <img src="assets\three_password_generator.png" class="rounded float-right" alt="image of random number examples">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Password Generator</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </li>
-          <li class="media">
-            <img src="assets\four_coding_quiz.png" class="rounded float-left" alt="image of random code">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Coding Quiz</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </li>
-          <li class="media">
-            <img src="assets\five_daily_scheduler.png" class="rounded float-right" alt="image of notebook for scheduling and table flowers">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Daily Scheduler</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </li>
-          <li class="media">
-            <img src="assets\six_weather_api.png" class="rounded float-left" alt="image of umbrellas for weather app">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">Weather API</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-            </div>
-          </li>
-        </ul>
+<!--bootstrap for layout, started using unordered list, changed to grid system-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4"></div>
+              <div class="box">
+                <a href="https://whitneybroadfoot.github.io/One_Portfolio/">
+                  <img src="assets/one_portfolio.png" alt="Thumbnail for GitHub Repo - Image of Computer" style="width: 50%">
+                    <div class="thumbnail">
+                      <p class="description">Portfolio Project</p>                      
+                    </div>              
+                  </a>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="box">
+                <a href="https://whitneybroadfoot.github.io/Six_Weather_API/">
+                  <img src="assets/six_weather_api.png" alt="Thumbnail for GitHub Repo - Image of Umbrellas" style="width: 50%">
+                    <div class="thumbnail">
+                      <p class="description">Weather API Example</p>                      
+                    </div>              
+                  </a>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="box">
+                <a href="https://whitneybroadfoot.github.io/Five_Work_Scheduler/">
+                  <img src="assets/five_daily_scheduler.png" alt="Thumbnail for GitHub Repo - Image of Notebook Scheduler" style="width: 50%">
+                    <div class="thumbnail">
+                      <p class="description">Daily Scheduler App</p>                      
+                    </div>              
+                  </a>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="box">
+                <a href="https://whitneybroadfoot.github.io/Three_Password_Generator/">
+                  <img src="assets/three_password_generator.png" alt="Thumbnail for GitHub Repo - Image of random numbers" style="width: 50%">
+                    <div class="thumbnail">
+                      <p class="description">Random Password Generator</p>                      
+                    </div>              
+                  </a>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="box">
+                <a href="https://whitneybroadfoot.github.io/Four_Quiz_Java/">
+                  <img src="assets/four_coding_quiz.png" alt="Thumbnail for GitHub Repo - Image of random code" style="width: 50%">
+                    <div class="thumbnail">
+                      <p class="description">JavaScript Quiz</p>                      
+                    </div>              
+                  </a>
+              </div>
+<!--end of the bootstrap and additional coding for boxes-->
 
+
+          </div>
+        </div>
     </body>
 </html>
