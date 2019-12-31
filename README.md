@@ -6,7 +6,7 @@
 
 This Portfolio page was created utilizing Bootstrap. Building a page via Bootstrap is an efficient use of time and resources. When you don't have the time to start from HTML and CSS scratch, Bootstrap is an easy way to create something functional and polished. 
 
-Throughout this Portfolio you will find the framework for showcasing future work, learning about me as a person and developer, in addition to space for feedback or connecting. 
+Throughout this Portfolio you will find the framework for showcasing future work, learning about me as a person and developer, in addition to space for feedback or connecting. Thanks for visiting.  
 
 
 
@@ -41,7 +41,6 @@ You will be employer-ready if you can answer the following questions:
 
 ## Learning Objectives
 You will be employer-competitive if you are able to:
-
 Explain the importance of CSS resets and cross-browser compatibility
 Explain and implement content delivery network links in HTML files
 Implement a grid layout in HTML to leverage the benefits of a CSS framework
